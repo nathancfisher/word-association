@@ -1,0 +1,28 @@
+.word {
+  position: relative;
+  font-size: 1.6rem;
+  padding: 2.4rem 5.2rem;
+  border-radius: 1.2rem;
+
+  color: #1864ab;
+  background-color: #ffffff;
+  border: 1px solid #1864ab;
+}
+
+.score {
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 500;
+  top: 0;
+  left: 0;
+  transform: translate(-35%, -35%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.2rem;
+
+  color: #ffffff;
+  background-color: #1864ab;
+}
+
+.symbol {
+  font-size: 0.8rem;
+}

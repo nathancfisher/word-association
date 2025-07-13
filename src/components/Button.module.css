@@ -1,0 +1,17 @@
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: none;
+  font-size: 2.4rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  padding: 2.4rem 7.2rem;
+  border-radius: 2rem;
+  background-color: #1864ab;
+  color: #f9f9f9;
+}

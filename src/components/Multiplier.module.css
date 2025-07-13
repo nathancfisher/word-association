@@ -1,0 +1,11 @@
+.multiplier {
+  position: absolute;
+  top: 50%;
+  right: -4.2rem;
+  transform: translate(100%, -50%);
+  font-size: 7.2rem;
+}
+
+.symbol {
+  font-size: 3.2rem;
+}

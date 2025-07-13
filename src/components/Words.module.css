@@ -1,0 +1,19 @@
+.history {
+  display: flex;
+  padding: 1.2rem;
+  overflow-x: auto;
+  align-items: center;
+  gap: 4.2rem;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.history::-webkit-scrollbar {
+  display: none;
+}
+
+.history > * {
+  flex-shrink: 0;
+}

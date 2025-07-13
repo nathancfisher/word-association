@@ -1,0 +1,123 @@
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+.word {
+  position: relative;
+  font-size: 1.6rem;
+  padding: 2.4rem 5.2rem;
+  border-radius: 1.2rem;
+
+  color: #1864ab;
+  background-color: #ffffff;
+  border: 1px solid #1864ab;
+}
+
+.score {
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 500;
+  top: 0;
+  left: 0;
+  transform: translate(-35%, -35%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.2rem;
+
+  color: #ffffff;
+  background-color: #1864ab;
+}
+
+.symbol {
+  font-size: 0.8rem;
+}
+
+.total {
+  font-size: 3.6rem;
+  position: absolute;
+  font-weight: 500;
+  top: -2rem;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.icon {
+  width: 4.2rem;
+  height: 4.2rem;
+  color: #e7f5ff;
+}
+
+.current {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prevWord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5.2rem 7.2rem;
+  font-size: 4.2rem;
+  border-radius: 1.2rem;
+  background-color: #1864ab;
+  color: #fff;
+}
+
+.multiplier {
+  position: absolute;
+  top: 50%;
+  right: -4.2rem;
+  transform: translate(100%, -50%);
+  font-size: 7.2rem;
+}
+
+.multiplier span {
+  font-size: 3.2rem;
+}
+
+form {
+  position: fixed;
+  bottom: 5.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input {
+  border: none;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: inherit;
+  width: 25rem;
+  height: 5rem;
+  border-radius: 20rem;
+
+  background-color: #f9f9f9;
+}
+
+form label {
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  left: -4.2rem;
+  transform: translateY(-50%);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+form label::after {
+  position: absolute;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  background-color: #1864ab;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1;
+}

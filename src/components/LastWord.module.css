@@ -1,0 +1,12 @@
+.prevWord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 15rem;
+  padding: 0 7.2rem;
+  font-size: 4.2rem;
+  border-radius: 1.2rem;
+  background-color: #1864ab;
+  color: #fff;
+}
